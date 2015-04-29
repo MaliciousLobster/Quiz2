@@ -1,8 +1,10 @@
-$(document).ready(function(){
+$(document).ready(function(event){
 	$('.dan').click(function(){
-		console.log("Hey you clicked me!");
+		alert("Hey you clicked me!");
 	});
+});
+$(document).ready(function(event){
 	$('#iwao').click(function(){
-		$('#iwao').fadOut('slow');
+		$('#iwao').fadeOut('slow');
 	});
 });
